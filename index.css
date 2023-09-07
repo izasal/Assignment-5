@@ -1,0 +1,25 @@
+body{
+    background-image: url("christmas-2919725_1280.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 100%;
+    background-attachment: fixed;
+
+}
+
+#player{
+    text-align: center;
+}
+
+/* audio {
+    filter: sepia(90%) saturate(70%) grayscale(1) contrast(99%) invert(12%);
+} */
+
+audio::-webkit-media-controls-panel, video::-webkit-media-controls-panel {
+    background-color: rgb(120, 187, 153);
+}
+
+#new_sample{
+    font-size: 40px;
+}
